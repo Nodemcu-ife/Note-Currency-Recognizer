@@ -1,4 +1,4 @@
-Calibration of Note Currency Recognizer C++ Coding 
+Calibration of RGB Color Sensor
 1)	RM 1.00 ;
    if ((v1 > 450 && v2 > 400 && v3 > 700) &&( v1 < 900 && v2 < 900 && v3 < 1500  ))
       { Serial.println ("This is Rm 1");
