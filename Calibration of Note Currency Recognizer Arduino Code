@@ -1,0 +1,38 @@
+Calibration of Note Currency Recognizer C++ Coding 
+1)	RM 1.00 ;
+   if ((v1 > 450 && v2 > 400 && v3 > 700) &&( v1 < 900 && v2 < 900 && v3 < 1500  ))
+      { Serial.println ("This is Rm 1");
+      mp3_play(1);
+      delay (2000);
+      }
+
+2)	RM 10.00 ;
+else if ((v1 > 1000 && v2 > 400 && v3 > 600) &&( v1 < 1900 && v2 < 1000 && v3 < 1100  ))
+       {Serial.println ("This is Rm 10");
+       mp3_play(3);
+
+3)	RM 20.00 ;
+else if ((v1 > 1000 && v2 > 800 && v3 > 700) &&( v1 < 2000 && v2 < 950 && v3 < 980  ))
+       {Serial.println ("This is Rm 20");
+       mp3_play(2);
+        delay (2000);}
+
+4)	RM 50.00 ;
+else if((v1 > 1010 && v2 > 1100 && v3 > 1700) &&( v1 < 1500 && v2 < 1490 && v3 < 2190  ))
+       {Serial.println ("This is Rm 50");
+       mp3_play(5);
+       delay (2000);}
+
+5)	RM 100.00
+else if ((v1 > 400 && v2 > 300 && v3 > 650) &&( v1 < 600 && v2 < 500 && v3 < 800))
+       {Serial.println ("This is Rm 100");
+       mp3_play(6);
+      delay (2000);
+       } 
+       
+6)	RM 5.00
+else if ((v1 > 800 && v2 > 800 && v3 > 900) &&( v1 < 1300 && v2 < 1400 && v3 <     1500  ))
+       {Serial.println ("This is Rm 5");
+       mp3_play(4);
+      delay (2000);
+       } 
